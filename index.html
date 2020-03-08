@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Crazy|Cat|People</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=League+Script|VT323" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<h1>Welcome!</h1>
+			<h3>Are you a crazy cat person? Would you like to have your very own feline hoard without the maintenace? If so, simply answer a couple of questions, pick a totem and meet your new best friends! </h3>
+		<div class="headerimagewrap">
+			<img src="images/catpeople.png" alt="pixel art of cat people">
+		</div>
+		</div>
+	</header>
+	<section>
+		<form>
+		<div class="userInput">
+			<h2>Tell us about yourself!</h2>
+			<h4> In order to match you with the purrfect pets, please enter some information below.</h4>
+			<div class="userInfo">
+				<label for="Name">Name:</label>
+				<input type="text" id="Name" value="" name="userName" placeholder="enter your name" required>			
+			</div>
+			<div class="userInfo">
+				<label for="Location">Location:</label>
+				<input type="text" id="Location" value="" name="userLocation" placeholder="i.e. Toronto, ON" required>
+			</div>
+			<div class= "catTotem">
+				<h4> Next, tell us a little about your cat-style by selecting one of the totems below.</h4>
+				<h2>Choose a totem:</h2>
+				<div class="totemwrapper">
+					<input type="radio" id="bathrobe" name="totem" value="bathrobe"/>
+					<label class="totem" for="bathrobe">
+					<img src="images/download-7.png">
+						<div class="totemlabel">Scruffy Bathrobe</div>
+					</label>
+					<input type="radio" id="cattreats" name="totem" value="cattreats"/>
+					<label class="totem" for="cattreats">
+						<img src="images/download-6.png">
+						<div class="totemlabel">Cat Treats</div>
+					</label>
+					<input type="radio" id="cattree" name="totem" value="cattree"/>
+						<label class="totem" for="cattree">							
+							<img src="images/download-4.png">
+							<div class="totemlabel">Cat Tree</div>
+						</label>
+					<input type="radio" id="laserpointer" name="totem" value="laserpointer"/>	
+						<label class="totem" for="laserpointer">	
+							<img src="images/download-5.png">						
+							<div class="totemlabel">Laser Pointer</div>
+						</label>
+					<input type="radio" id="poopscoop" name="totem" value="poopscoop"/>
+						<label class="totem" for="poopscoop">
+							<img src="images/download-3.png">
+							<div class="totemlabel">Poop Scoop</div>
+						</label>
+					</div>
+					<div>	
+						<button type="submit" class="button1">Generate Cat Hoard!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		</form>
+	</section>
+	<section>
+		<div class="container">
+			<img src="images/art.png" alt="fat cat pixels">
+			<div class="greeting"></div>
+			<div class="catArray" id="catArray"></div>
+			<div class="adoptbutton">
+				<div class="adoptText"></div>
+				<button type="submit" id="button2">Adopt a new Cat?!</button>
+			</div>
+		</div>
+	</div>
+	</secion>
+	<section>
+		<div class="adoptContainer">
+			<div id="catAdopt"></div>
+		</div>
+	</div>
+	</secion>
+	<footer>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="scripts.js"></script>
+</body>
+</html>
