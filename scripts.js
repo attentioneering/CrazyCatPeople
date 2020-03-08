@@ -355,7 +355,7 @@ myCats.init = ()=>{
 $('#button2').on('click', function(event){
      event.preventDefault();
       $('.adoptContainer').show();
-     const PetfinderUrl = `http://api.petfinder.com/pet.getRandom?key=cdac0ce07478207482827b8d466bc370&animal=cat&output=basic&format=json`;
+     const PetfinderUrl = `https://api.petfinder.com/pet.getRandom?key=cdac0ce07478207482827b8d466bc370&animal=cat&output=basic&format=json`;
      $.ajax({
         url: PetfinderUrl,
         dataType: 'jsonp',
